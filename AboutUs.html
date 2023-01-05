@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Venus Handicrafts - Art and Craft | Since 1972 |</title>
+  <!-- google font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <!-- google font link -->
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./logo/cover-modified.png" type="image/x-icon">
+  <!-- favicon -->
+  <!-- style sheet -->
+  <link rel="stylesheet" href="./footer.css.css">
+  <link rel="stylesheet" href="style.css">
+  <!-- style sheet -->
+  <!-- AOS css -->
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+  <!-- AOS css -->
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <!-- bootstrap css -->
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="fontawesome-free-6.1.2-web/css/all.css">
+  <!-- fontawesome -->
+
+</head>
+
+<body style="background-color: white;">
+  <!-- ------------------------------------header--------------------------------------------- -->
+
+  <!-- header starts here -->
+  <section class="header">
+    <!-- logo -->
+    <div class="logo  ms-1">
+      <img src="./logo/logo.png" class="img-fluid" style="height: 90px;width: 270px;">
+      <!-- header icons starts -->
+      <div class="header-icons col">
+        <!-- Icon wishlist trrigger modal -->
+        <i class="fa-solid  fa-clr fa-heart" data-bs-toggle="modal" data-bs-target="#exampleModalWishlist"> </i>Wishlist
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalWishlist" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog" style="background-color:white ;">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Wishlist</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                No items added.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-dark text-light" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Icon wishlist ends -->
+
+        <!-- Icon cart trigger modal -->
+        <i class="fa-solid  fa-clr fa-bag-shopping" data-bs-toggle="modal" data-bs-target="#exampleModalCart"></i> Cart
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalCart" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog" style="background-color:white ;">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                No items added.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-dark text-light" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Icon cart ends -->
+        <!-- Icon  search trigger modal -->
+        <i class="fa-solid fa-iconmodal fa-magnifying-glass" data-bs-toggle="modal"
+          data-bs-target="#exampleModalsearch"></i>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalsearch" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+              <div class="modal-header ms-auto">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body" align="center" style="margin-top: 150px;">
+                <i class="fa-solid fa-magnifying-glass" style="font-size:60px;"> </i>
+                <h1>SEARCH</h1>
+                <p>FIND YOUR PRODUCT WITH FAST SEARCH. ENTER SOME KEYWORD SUCH AS DRESS, <br> IRON, WOODEN CRAFTS ETC.
+                  OR CAN SEARCH BY PRODUCT SKU.</p>
+                <input type="text" placeholder="Enter Your Keyword Here"
+                  style="background: 0 0; border: none; width: 100% ; border-bottom: 1px solid #666;text-align: center; font-size: 25px;outline: none; padding: 10px;">
+                <button
+                  style="border:1px solid #666;background:white ; margin-top:25px; border-radius: 19px;height: 38px; color: #222;width: 89px;" id="Headicon-search-btn" data-bs-dismiss="modal">SEARCH</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- modal for search end here -->
+      </div>
+      <!-- header icons ends -->
+
+    </div>
+    <!-- navbar -->
+    <!-- brand name -->
+    <nav class="navbar navbar-expand-md navbar-light" style="font-family: 'Poppins', sans-serif;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Since <span id="ftext">1972</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- brand name -->
+        <!-- nav menu -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="Index.html"><span class="after-Before-effect">Home</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="AboutUs.html"><span class="after-Before-effect">About Us</span></a>
+            </li>
+            <!-- dropdown -->
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="navbarDropdown" role="button" aria-expanded="false"><span
+                  class="after-Before-effect">Handicraft Products<i class="fa-solid fa-caret-down"
+                    id="dropdown-icon"></i></span>
+
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="font-family:sans-serif ;display: none;">
+                <li><a class="dropdown-item" href="IronHandicrafts.html">Iron Handicrafts</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="GlassHandicrafts.html">Glass Handicrafts</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="BrassHandicrafts.html">Brass Handicrafts</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="WoodenHandicrafts.html">Wood Handicrafts</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="AluminiumHandicrafts.html">Aluminium Handicrafts</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="DecorativeHandicrafts.html">Handicraft Decorative</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="HomeDecor.html">Home Décor</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="CandleAccessories.html">Candle Accessories</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="TableWares.html">Tables wares</a></li>
+              </ul>
+            </li>
+            <!-- dropdown ends -->
+            <li class="nav-item">
+              <a class="nav-link" href="Gallery.html"><span class="after-Before-effect">Gallery</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ContactUs.html"><span class="after-Before-effect">Contact Information</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="FAQs.html"> <span class="after-Before-effect">FAQs</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="SiteMap.html"> <span class="after-Before-effect">Site Map</span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar -->
+  </section>
+  <!-- header ends here -->
+  <!-- about us main conatiner -->
+  <div class="AboutUs-main-container">
+    <!-- header video for about us -->
+    <div class="container-fluid" data-aos="fade-up">
+      <div class="row">
+        <div class="col-sm-6 col-md-12 col-lg-12" style="box-shadow:10px 10px 10px black ;">
+          <video src="./Images/About Us/AboutUs.mp4" muted autoplay controls loop width="100%"
+            style="width: 100%; height: 100%;" style="box-shadow:10px 10px 10px black ;"></video>
+        </div>
+      </div>
+    </div>
+    <!-- header video for about us -->
+    <!-- about us navtabs for how we are our team our products -->
+    <div class="container-fluid my-4">
+      <ul class="nav nav-pills nav-fill mb-3" id="pills-tab" role="tablist" data-aos="fade-up">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+            type="button" role="tab" aria-controls="pills-home" aria-selected="true">WHO WE ARE?</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+            type="button" role="tab" aria-controls="pills-profile" aria-selected="false">OUR PRODUCT</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
+            type="button" role="tab" aria-controls="pills-contact" aria-selected="false">OUR TEAM</button>
+        </li>
+      </ul>
+      <!-- who are we? -->
+      <div class="tab-content" id="pills-tabContent" data-aos="fade-up">
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+          <div class="row mt-5">
+            <div class="col-sm-12 col-md-12 col-lg-6">
+              <h1 class="display-3 fw-bold" style="color:#af1414 ;letter-spacing: 10px;text-shadow: 2px 2px 2px black;">
+                Hi , We are Venus Handicrafts!
+              </h1>
+              <p class="lead fw-bold  mt-4" style="line-height: 40px;text-align: justify ;">VENUS Handicrafts is a well-known
+                certified company. Established
+                in 1972,
+                VENUS Handicrafts is the field of manufacturing and exporting handicrafts
+                since more than 36 years. The products are of elegance, style and superior quality.</p>
+            </div>
+            <!-- img -->
+            <div class="col-sm-12 col-md-12 col-lg-6">
+              <img src="./Images/About Us/who-we-are-png.png" class="img-fluid ms-5" height="500" width="350"
+                style="box-shadow:10px 10px 20px black ;">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <p class=" fw-bold mt-3" style="line-height: 40px;text-align: justify ;">Showcasing a range, that is ethnic as well
+                as innovative, the company
+                has established
+                itself as a leading name in the field of handicrafts. VENUS Handicrafts is acknowledged
+                for its professional approach in creativity, design and exclusive products. The company
+                understands the importance of Quality and Timely Delivery of merchandise in the competetitve
+                and challenging International Business scenario.</p>
+            </div>
+          </div>
+        </div>
+        <!-- who are we? -->
+        <!-- our products -->
+        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+          <div class="row">
+            <div class="col-12">
+              <p class="display-3 text-center fw-bold py-3"
+                style="color: #af1414;letter-spacing: 10px;text-shadow: 2px 2px 2px black;">OUR PRODUCTS</p>
+            </div>
+            <div class="col-12">
+              <p class="h4 fw-bold" style="line-height: 40px;">
+                The company manufactures a wide range of products which are made by
+                skilled Craftsmen. Artisans work hard to produce classic pieces of handicrafts
+                as well as.
+                <br><br>
+                With the wide experience of more than 36 years - the products are
+                distinguished in the market for their superior quality and elegant design.
+                <br><br>
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <img src="./Images/About Us/Handicrafts-Handloom.jpg" class="img-fluid my-3"
+                style="box-shadow:2px 2px 5px black ;">
+            </div>
+            <div class="col-6">
+              <p class="h5" style="line-height: 50px;">The range of handcrafted products can also be customized - as per
+                the design
+                & color requirement of the customer.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6 fw-bold">
+              <p style="line-height: 40px;">
+                The design team understands that individual
+                customers have different requirements and hence, they are open to work on customer's
+                own design and specification. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque
+                necessitatibus commodi, ipsum laboriosam eius esse. Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Ad, ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, itaque possimus
+                placeat recusandae eligendi eius laboriosam? Eius natus optio repellat?
+              </p>
+            </div>
+            <div class="col-6">
+              <img src="./Images/About Us/Indias-Best-Wholesalers-for-Export.png" class="img-fluid"
+                style="box-shadow: 5px 5px 10px black;">
+            </div>
+
+
+
+          </div>
+          <div class="row">
+            <div class="col-12 fw-bold mt-4">
+              <p style="line-height: 30px;">
+                There is a dedicated team of professionals in each department
+                (such as Designing, Merchandising, Production, Compliance,
+                Quality Control and Shipping) for taking up assignments individually
+                & executing the task as per the buyers requirement.
+              </p>
+            </div>
+          </div>
+
+        </div>
+        <!-- our products -->
+
+        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+          <div class="row">
+            <div class="col text-center my-3">
+              <p class="display-1 fw-bold" style="color: #af1414;text-shadow: 2px 2px 2px black;letter-spacing: 10px;">
+                MEET OUR TEAM</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col text-center">
+              <img src="./Images/About Us/teamwork.webp" class="img-fluid" height="400px" width="600px" alt="">
+            </div>
+            <div class="col">
+              <p class="display-6 pt-5" style="line-height:50px ;">
+                Great teamwork is the only way we create the breakthroughs that define our careers. </p>
+            </div>
+          </div>
+          <!-- team cards -->
+
+
+
+          <section class="gradient-custom">
+            <div class="container my-5 py-5">
+              <div class="row d-flex justify-content-center">
+                <div class="col-md-12">
+                  <div class="text-center mb-4 pb-2">
+                    <i class="fas fa-quote-left fa-3x text-white"></i>
+                  </div>
+
+                  <div class="card">
+                    <div class="card-body px-4 py-5">
+                      <!-- Carousel wrapper -->
+                      <div id="carouselExampleDark1" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <!-- Indicators -->
+                        <div class="carousel-indicators mb-0">
+                          <button data-bs-target="#carouselExampleDark1" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                          <button data-bs-target="#carouselExampleDark1" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                          <button data-bs-target="#carouselExampleDark1" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        </div>
+
+                        <!-- Inner -->
+                        <div class="carousel-inner pb-5">
+                          <!-- Single item -->
+                          <div class="carousel-item active" data-bs-interval="80000">
+                            <div class="row d-flex justify-content-center">
+                              <div class="col-lg-10 col-xl-8">
+                                <div class="row">
+                                  <div class="col-lg-4 d-flex justify-content-center">
+                                    <img src="./Images/About Us/bilal-modified.png"
+                                      class="rounded-circle shadow-1 mb-4 mb-lg-0" alt="woman avatar" width="150"
+                                      height="150" />
+                                  </div>
+                                  <div
+                                    class="col-9 col-md-9 col-lg-7 col-xl-8 text-center text-lg-start mx-auto mx-lg-0">
+                                    <h4 class="mb-4">Bilal Hussain - Web Designer</h4>
+                                    <p class="mb-0 pb-3 display-6 text-danger">
+                                      Hi , I'm Bilal Hussain and i'm  a freelancer web designer. 
+                                    </p>
+                                    <p>I Specialize In standard-Based HTML , CSS and JS.</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- Single item -->
+                          <div class="carousel-item">
+                            <div class="row d-flex justify-content-center">
+                              <div class="col-lg-10 col-xl-8">
+                                <div class="row">
+                                  <div class="col-lg-4 d-flex justify-content-center">
+                                    <img src="./Images/About Us/ali raza-modified.png"
+                                      class="rounded-circle shadow-1 mb-4 mb-lg-0" alt="woman avatar" width="150"
+                                      height="150" />
+                                  </div>
+                                  <div
+                                    class="col-9 col-md-9 col-lg-7 col-xl-8 text-center text-lg-start mx-auto mx-lg-0">
+                                    <h4 class="mb-4">Ali Raza - Web Designer</h4>
+                                    <p class="display-6 text-primary">Hi , I'm Ali Raza.</p>
+                                    <p class="mb-0 pb-3">
+                                      I Specialize In standard-Based HTML , CSS and JS.
+                      
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- Single item -->
+                          <div class="carousel-item">
+                            <div class="row d-flex justify-content-center">
+                              <div class="col-lg-10 col-xl-8">
+                                <div class="row">
+                                  <div class="col-lg-4 d-flex justify-content-center">
+                                    <img src="./Images/About Us/asad-modified (1).png"
+                                      class="rounded-circle shadow-1 mb-4 mb-lg-0" alt="woman avatar" width="150"
+                                      height="150" />
+                                  </div>
+                                  <div
+                                    class="col-9 col-md-9 col-lg-7 col-xl-8 text-center text-lg-start mx-auto mx-lg-0">
+                                    <h4 class="mb-4">Muhammad Asad - Web Designer</h4>
+                                    <p  class="display-6 text-warning">Hi , I'm Muhammad Asad.</p>
+                                    <p class="mb-0 pb-3">
+                                      I Specialize In standard-Based HTML , CSS and JS.
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- Inner -->
+
+                        <!-- Controls -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark1" data-bs-slide="prev" >
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark1" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                      <!-- Carousel wrapper -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+
+        </div>
+      </div>
+    </div>
+    <!-- about us navtabs for how we are our team our products -->
+
+
+
+
+  </div>
+  <!-- about us main conatiner -->
+
+
+
+
+  <!-- ---------------------------------------------------------------------------------------- -->
+
+  <!-- footer start -->
+  <footer class="footer" data-aos="fade-up" >
+    <!-- row for icons shippings -->
+    <div class="container-fluid">
+      <div class="row  py-4  ps-5 bg-light">
+        <div class="col text-dark">
+          <h5>
+            <i class="fa-solid fa-truck"></i>&nbsp;FAST & SECURE HOME DELIVERY
+          </h5>
+        </div>
+        <div class="col text-dark">
+          <h5>
+            <i class="fa-solid fa-hand-holding-dollar"></i>&nbsp;MONEY BACK GUARANTEE
+          </h5>
+        </div>
+        <div class="col text-dark">
+          <h5>
+            <i class="fa-brands fa-space-awesome"></i>&nbsp;QUICK DELIVERY
+          </h5>
+        </div>
+      </div>
+    </div>
+    <!-- row for icons shippings -->
+    <div class="container">
+
+      <!-- main footer -->
+      <div class="row">
+        <div class="footer-col col-sm-12 col-md-3 col-lg-3">
+          <h4>INFORMATION</h4>
+          <ul>
+            <li><a href="AboutUs.html">About Us</a></li>
+            <li><a href="ContactUs.html">Contact Us</a></li>
+            <li><a href="FAQs.html">Privacy Policy</a></li>
+            <li><a href="FAQs.html">Term & Condition</a></li>
+            <li><a href="FAQs.html">Shipping Details</a></li>
+            <li><a href="FAQs.html">Payments</a></li>
+            <li><a href="FAQs.html">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="footer-col col-sm-12 col-md-3 col-lg-3">
+          <h4>MY ACCOUNT</h4>
+          <ul>
+            <li><a href="#">Register</a></li>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Wishlist</a></li>
+            <li><a href="#">Cart</a></li>
+            <li><a href="#">Checkout</a></li>
+
+          </ul>
+        </div>
+
+        <div class="footer-col col-sm-12 col-md-3 col-lg-3">
+          <h4>CONTACT US</h4>
+          <p style="color: #d8d8d8;"><i class="fa-solid fa-house"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;P-16 Waleed Block,
+            <br> Muslim Town # 1, Karachi Pakistan
+          </p>
+          <p style="color: #d8d8d8;"><i class="fa-solid fa-phone"></i>+92 41 881 6683<br><i
+              class="fa-solid fa-phone"></i>+92 42 613 5628</p>
+          <p style="color: #d8d8d8;"><i class="fa-solid fa-envelope"></i>&nbsp; info@venushandicrafts.com</p>
+        </div>
+        <div class="footer-col col-sm-12 col-md-3 col-lg-3">
+          <h4>
+            Follow Us
+          </h4>
+          <div class="social-links">
+            <a href="https://www.facebook.com/login.php/"><i class="fab  slink fa-facebook-f"></i></a>
+            <a href="https://twitter.com/i/flow/login"><i class="fab  slink fa-twitter"></i></a>
+            <a href="https://www.instagram.com/"><i class="fab  slink fa-instagram"></i></a>
+            <a href="https://www.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a>
+
+          </div>
+        </div>
+
+
+
+
+      </div>
+      <!-- main footer -->
+    </div>
+
+
+
+    <!-- footer end -->
+    <!-- copyright -->
+    <div class="container-fluid">
+      <div class="row bg-light">
+        <div class="col text-dark lead  text-muted text-center mt-3">
+          <p>COPYRIGHT © 2020 VENUS HANDICRAFTS. ALL RIGHTS RESERVED.</p>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  <!-- copyright -->
+
+
+
+
+  <!-- Javascript -->
+
+  <!-- ------------------------------------------------------------------------------------------- -->
+
+  <!-- jquery -->
+  <script src="./js/jquery-3.6.0.min.js"></script>
+  <!-- jquery -->
+  <!-- bootstrap js -->
+  <script src="./js/bootstrap.min.js"></script>
+  <!-- bootstrap js -->
+  <!-- AOS jS -->
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+  <!-- AOS jS -->
+  <!-- jquery syntax -->
+  <script>
+    $(document).ready(function () {
+      // dropdown slide effect
+      $("#navbarDropdown").click(function () {
+        $(".dropdown-menu").slideToggle(300);
+      });
+      // dropdown slide effect
+
+      // header icon modal search click
+      $("#Headicon-search-btn").click(function () {
+        $(alert("Sorry! - Out of Stock -"));
+      });
+      // header icon modal search click
+
+      // modal add to cart function
+      $(".modal-close-btn").click(function () {
+        $(alert("Added To Cart Successfully!"));
+      });
+      // modal add to cart function
+    });
+     // AOS JS STarts
+
+     AOS.init();
+
+AOS.init({
+  duration: 1000,
+  anchorPlacement: 'top-bottom',
+  disable: function () {
+    var maxWidth = 700;
+    return window.innerWidth < maxWidth;
+  }
+
+})
+// AOS JS ends
+  </script>
+  <!-- jquery syntax -->
+
+</body>
+
+</html>

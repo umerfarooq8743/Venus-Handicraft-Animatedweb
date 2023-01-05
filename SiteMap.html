@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venus Handicrafts - Art and Craft | Since 1972 |</title>
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <!-- google font link -->
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./logo/cover-modified.png" type="image/x-icon">
+    <!-- favicon -->
+    <!-- style sheet -->
+    <link rel="stylesheet" href="./footer.css.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- style sheet -->
+    <!-- AOS css -->
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <!-- AOS css -->
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- bootstrap css -->
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="fontawesome-free-6.1.2-web/css/all.css">
+    <!-- fontawesome -->
+
+</head>
+
+<body style="background-color: white;">
+    <!-- ------------------------------------header--------------------------------------------- -->
+
+    <!-- header starts here -->
+    <section class="header">
+        <!-- logo -->
+        <div class="logo  ms-1">
+            <img src="./logo/logo.png" class="img-fluid" style="height: 90px;width: 270px;">
+            <!-- header icons starts -->
+            <div class="header-icons col">
+                <!-- Icon wishlist trrigger modal -->
+                <i class="fa-solid  fa-clr fa-heart" data-bs-toggle="modal" data-bs-target="#exampleModalWishlist">
+                </i>Wishlist
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalWishlist" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog" style="background-color:white ;">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Wishlist</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                No items added.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-dark text-light"
+                                    data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Icon wishlist ends -->
+
+                <!-- Icon cart trigger modal -->
+                <i class="fa-solid  fa-clr fa-bag-shopping" data-bs-toggle="modal"
+                    data-bs-target="#exampleModalCart"></i> Cart
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalCart" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog" style="background-color:white ;">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                No items added.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-dark text-light"
+                                    data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Icon cart ends -->
+                <!-- Icon  search trigger modal -->
+                <i class="fa-solid fa-iconmodal fa-magnifying-glass" data-bs-toggle="modal"
+                    data-bs-target="#exampleModalsearch"></i>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalsearch" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-fullscreen">
+                        <div class="modal-content">
+                            <div class="modal-header ms-auto">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body" align="center" style="margin-top: 150px;">
+                                <i class="fa-solid fa-magnifying-glass" style="font-size:60px;"> </i>
+                                <h1>SEARCH</h1>
+                                <p>FIND YOUR PRODUCT WITH FAST SEARCH. ENTER SOME KEYWORD SUCH AS DRESS, <br> IRON,
+                                    WOODEN CRAFTS ETC.
+                                    OR CAN SEARCH BY PRODUCT SKU.</p>
+                                <input type="text" placeholder="Enter Your Keyword Here"
+                                    style="background: 0 0; border: none; width: 100% ; border-bottom: 1px solid #666;text-align: center; font-size: 25px;outline: none; padding: 10px;">
+                                <button
+                                    style="border:1px solid #666;background:white ; margin-top:25px; border-radius: 19px;height: 38px; color: #222;width: 89px;"
+                                    id="Headicon-search-btn" data-bs-dismiss="modal">SEARCH</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- modal for search end here -->
+            </div>
+            <!-- header icons ends -->
+
+        </div>
+        <!-- navbar -->
+        <!-- brand name -->
+        <nav class="navbar navbar-expand-md navbar-light" style="font-family: 'Poppins', sans-serif;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Since <span id="ftext">1972</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- brand name -->
+                <!-- nav menu -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="Index.html"><span
+                                    class="after-Before-effect">Home</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="AboutUs.html"><span class="after-Before-effect">About
+                                    Us</span></a>
+                        </li>
+                        <!-- dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" id="navbarDropdown" role="button" aria-expanded="false"><span
+                                    class="after-Before-effect">Handicraft Products<i class="fa-solid fa-caret-down"
+                                        id="dropdown-icon"></i></span>
+
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown"
+                                style="font-family:sans-serif ;display: none;">
+                                <li><a class="dropdown-item" href="IronHandicrafts.html">Iron Handicrafts</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="GlassHandicrafts.html">Glass Handicrafts</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="BrassHandicrafts.html">Brass Handicrafts</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="WoodenHandicrafts.html">Wood Handicrafts</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="AluminiumHandicrafts.html">Aluminium Handicrafts</a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="HomeDecor.html">Handicraft Decorative</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="DecorativeHandicrafts.html">Home Décor</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="CandleAccessories.html">Candle Accessories</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="TableWares.html">Tables wares</a></li>
+                            </ul>
+                        </li>
+                        <!-- dropdown ends -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="Gallery.html"><span class="after-Before-effect">Gallery</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ContactUs.html"><span class="after-Before-effect">Contact
+                                    Information</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="FAQs.html"> <span class="after-Before-effect">FAQs</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="SiteMap.html"> <span class="after-Before-effect">Site
+                                    Map</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- navbar -->
+    </section>
+    <!-- header ends here -->
+
+    <!-- ---------------------------------------------------------------------------------------- -->
+
+    <!-- sitamap -->
+    <!-- main page -->
+    <div class="container">
+        <!-- sib page -->
+        <div class="row text-center">
+            <div class="col display-1 fw-bold my-4" style="background-color: #af1414; color: #ffffff;letter-spacing: 20px;">
+                SITE MAP
+            </div>
+        </div>
+        <div class="container" style="box-shadow:5px 5px 10px black ; border-radius: 10px;">
+            <div class="conatiner-fluid">
+                <ul style="list-style:disc ;" class="sitemap-links py-5 ps-5">
+                    <li class="fw-bolder h4"><a href="./Index.html">HOME</a>
+                        <ul>
+                            <li> <a href="./Index.html">Top Categories</a> </li>
+                            <li> <a href="./Index.html">Trending Products</a> </li>
+                            <li> <a href="./Index.html">Testimonials</a> </li>
+                        </ul>
+                    </li>
+                    <li class="fw-bolder h4"><a href="./AboutUs.html">ABOUT US</a>
+                        <ul style="list-style:disc ;">
+                            <li> <a href="./AboutUs.html">Who we are?</a> </li>
+                            <li> <a href="./AboutUs.html">Our Products</a> </li>
+                            <li> <a href="./AboutUs.html">Our Team</a> </li>
+                        </ul>
+                    </li>
+                    <li class="fw-bolder h4"><a href="#">HANDICRAFT PRODUCTS</a>
+                        <ul>
+                            <li> <a href="./IronHandicrafts.html">Iron Handicrafts</a> </li>
+                            <li> <a href="./GlassHandicrafts.html">Glass Handicrafts</a> </li>
+                            <li> <a href="./BrassHandicrafts.html">Brass Handicrafts</a> </li>
+                            <li> <a href="./WoodenHandicrafts.html">Wooden Handicrafts</a> </li>
+                            <li> <a href="./AluminiumHandicrafts.html">Aluminium Handicrafts</a> </li>
+                            <li> <a href="./DecorativeHandicrafts.html">Decorative Handicrafts</a> </li>
+                            <li> <a href="./HomeDecor.html">Home Decor</a> </li>
+                            <li> <a href="./CandleAccessories.html">Candle Accessories</a> </li>
+                            <li> <a href="./TableWares.html">Table Wares</a> </li>
+                        </ul>
+                    </li>
+                    <li class="fw-bolder h4"><a href="./Gallery.html">GALLERY</a></li>
+                    <li class="fw-bolder h4"><a href="./ContactUs.html">CONTACT US</a></li>
+                    <li class="fw-bolder h4"><a href="./FAQs.html">FAQs</a></li>
+            </div>
+
+
+
+
+
+        </div>
+        <!-- main page -->
+
+
+    </div>
+    <!-- sitamap -->
+
+
+
+    <!-- footer start -->
+    <footer class="footer" data-aos="fade-up">
+        <!-- row for icons shippings -->
+        <div class="container-fluid">
+            <div class="row  py-4  ps-5 bg-light">
+                <div class="col text-dark">
+                    <h5>
+                        <i class="fa-solid fa-truck"></i>&nbsp;FAST & SECURE HOME DELIVERY
+                    </h5>
+                </div>
+                <div class="col text-dark">
+                    <h5>
+                        <i class="fa-solid fa-hand-holding-dollar"></i>&nbsp;MONEY BACK GUARANTEE
+                    </h5>
+                </div>
+                <div class="col text-dark">
+                    <h5>
+                        <i class="fa-brands fa-space-awesome"></i>&nbsp;QUICK DELIVERY
+                    </h5>
+                </div>
+            </div>
+        </div>
+        <!-- row for icons shippings -->
+        <div class="container">
+
+            <!-- main footer -->
+            <div class="row">
+                <div class="footer-col col-sm-12 col-md-3 col-lg-3">
+                    <h4>INFORMATION</h4>
+                    <ul>
+                        <li><a href="AboutUs.html">About Us</a></li>
+                        <li><a href="ContactUs.html">Contact Us</a></li>
+                        <li><a href="FAQs.html">Privacy Policy</a></li>
+                        <li><a href="FAQs.html">Term & Condition</a></li>
+                        <li><a href="FAQs.html">Shipping Details</a></li>
+                        <li><a href="FAQs.html">Payments</a></li>
+                        <li><a href="FAQs.html">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col col-sm-12 col-md-3 col-lg-3">
+                    <h4>MY ACCOUNT</h4>
+                    <ul>
+                        <li><a href="#">Register</a></li>
+                        <li><a href="#">Login</a></li>
+                        <li><a href="#">Wishlist</a></li>
+                        <li><a href="#">Cart</a></li>
+                        <li><a href="#">Checkout</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="footer-col col-sm-12 col-md-3 col-lg-3">
+                    <h4>CONTACT US</h4>
+                    <p style="color: #d8d8d8;"><i class="fa-solid fa-house"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;P-16
+                        Waleed Block,
+                        <br> Muslim Town # 1, Karachi Pakistan
+                    </p>
+                    <p style="color: #d8d8d8;"><i class="fa-solid fa-phone"></i>+92 41 881 6683<br><i
+                            class="fa-solid fa-phone"></i>+92 42 613 5628</p>
+                    <p style="color: #d8d8d8;"><i class="fa-solid fa-envelope"></i>&nbsp;
+                        info@venushandicrafts.com</p>
+                </div>
+                <div class="footer-col col-sm-12 col-md-3 col-lg-3">
+                    <h4>
+                        Follow Us
+                    </h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/login.php/"><i class="fab  slink fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/i/flow/login"><i class="fab  slink fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fab  slink fa-instagram"></i></a>
+                        <a href="https://www.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a>
+
+                    </div>
+                </div>
+
+
+
+
+            </div>
+            <!-- main footer -->
+
+
+        </div>
+
+
+        <!-- footer end -->
+        <!-- copyright -->
+        <div class="container-fluid">
+            <div class="row bg-light">
+                <div class="col text-dark lead  text-muted text-center mt-3">
+                    <p>COPYRIGHT © 2020 VENUS HANDICRAFTS. ALL RIGHTS RESERVED.</p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- copyright -->
+
+
+
+
+    <!-- Javascript -->
+
+    <!-- ------------------------------------------------------------------------------------------- -->
+
+    <!-- jquery -->
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <!-- jquery -->
+    <!-- bootstrap js -->
+    <script src="./js/bootstrap.min.js"></script>
+    <!-- bootstrap js -->
+    <!-- AOS jS -->
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <!-- AOS jS -->
+    <!-- jquery syntax -->
+    <script>
+        $(document).ready(function () {
+            // dropdown slide effect
+            $("#navbarDropdown").click(function () {
+                $(".dropdown-menu").slideToggle(300);
+            });
+            // dropdown slide effect
+
+            // header icon modal search click
+            $("#Headicon-search-btn").click(function () {
+                $(alert("Sorry! - Out of Stock -"));
+            });
+            // header icon modal search click
+
+            // modal add to cart function
+            $(".modal-close-btn").click(function () {
+                $(alert("Added To Cart Successfully!"));
+            });
+            // modal add to cart function
+        });
+        // AOS JS STarts
+
+        AOS.init();
+
+        AOS.init({
+            duration: 1000,
+            anchorPlacement: 'top-bottom',
+            disable: function () {
+                var maxWidth = 700;
+                return window.innerWidth < maxWidth;
+            }
+
+        })
+// AOS JS ends
+    </script>
+    <!-- jquery syntax -->
+
+</body>
+
+</html>

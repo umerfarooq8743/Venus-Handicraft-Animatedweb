@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Venus Handicrafts - Art and Craft | Since 1972 |</title>
+  <!-- google font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <!-- google font link -->
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./logo/cover-modified.png" type="image/x-icon">
+  <!-- favicon -->
+  <!-- style sheet -->
+  <link rel="stylesheet" href="style.css">
+  <!-- style sheet -->
+  <!-- AOS css -->
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+  <!-- AOS css -->
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <!-- bootstrap css -->
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="fontawesome-free-6.1.2-web/css/all.css">
+  <!-- fontawesome -->
+
+</head>
+
+<body style="background-color: white;">
+  <!-- ------------------------------------header--------------------------------------------- -->
+
+  <!-- header starts here -->
+  <section class="header">
+    <!-- logo -->
+    <div class="logo  ms-1">
+      <img src="./logo/logo.png" class="img-fluid" style="height: 90px;width: 270px;">
+      <!-- header icons starts -->
+      <div class="header-icons col">
+        <!-- Icon wishlist trrigger modal -->
+        <i class="fa-solid  fa-clr fa-heart" data-bs-toggle="modal" data-bs-target="#exampleModalWishlist"> </i>Wishlist
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalWishlist" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog" style="background-color:white ;">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Wishlist</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                No items added.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-dark text-light" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Icon wishlist ends -->
+
+        <!-- Icon cart trigger modal -->
+        <i class="fa-solid  fa-clr fa-bag-shopping" data-bs-toggle="modal" data-bs-target="#exampleModalCart"></i> Cart
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalCart" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog" style="background-color:white ;">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                No items added.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-dark text-light" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Icon cart ends -->
+        <!-- Icon  search trigger modal -->
+        <i class="fa-solid fa-iconmodal fa-magnifying-glass" data-bs-toggle="modal"
+          data-bs-target="#exampleModalsearch"></i>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalsearch" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+              <div class="modal-header ms-auto">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body" align="center" style="margin-top: 150px;">
+                <i class="fa-solid fa-magnifying-glass" style="font-size:60px;"> </i>
+                <h1>SEARCH</h1>
+                <p>FIND YOUR PRODUCT WITH FAST SEARCH. ENTER SOME KEYWORD SUCH AS DRESS, <br> IRON, WOODEN CRAFTS ETC.
+                  OR CAN SEARCH BY PRODUCT SKU.</p>
+                <input type="text" placeholder="Enter Your Keyword Here"
+                  style="background: 0 0; border: none; width: 100% ; border-bottom: 1px solid #666;text-align: center; font-size: 25px;outline: none; padding: 10px;">
+                <button
+                  style="border:1px solid #666;background:white ; margin-top:25px; border-radius: 19px;height: 38px; color: #222;width: 89px;" id="Headicon-search-btn" data-bs-dismiss="modal">SEARCH</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- modal for search end here -->
+      </div>
+      <!-- header icons ends -->
+
+    </div>
+    <!-- navbar -->
+    <!-- brand name -->
+    <nav class="navbar navbar-expand-md navbar-light" style="font-family: 'Poppins', sans-serif;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Since <span id="ftext">1972</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- brand name -->
+        <!-- nav menu -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./Index.html"><span class="after-Before-effect">Home</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="AboutUs.html"><span class="after-Before-effect">About Us</span></a>
+            </li>
+            <!-- dropdown -->
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="navbarDropdown" role="button" aria-expanded="false"><span
+                  class="after-Before-effect">Handicraft Products<i class="fa-solid fa-caret-down"
+                    id="dropdown-icon"></i></span>
+
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="font-family:sans-serif ;display: none;">
+                <li><a class="dropdown-item" href="./IronHandicrafts.html">Iron Handicrafts</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="./GlassHandicrafts.html">Glass Handicrafts</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="./BrassHandicrafts.html">Brass Handicrafts</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="./WoodenHandicrafts.html">Wood Handicrafts</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="./AluminiumHandicrafts.html">Aluminium Handicrafts</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="./DecorativeHandicrafts.html">Handicraft Decorative</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="./HomeDecor.html">Home Décor</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="./CandleAccessories.html">Candle Accessories</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="./TableWares.html">Tables wares</a></li>
+              </ul>
+            </li>
+            <!-- dropdown ends -->
+            <li class="nav-item">
+              <a class="nav-link" href="Gallery.html"><span class="after-Before-effect">Gallery</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ContactUs.html"><span class="after-Before-effect">Contact Information</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="FAQs.html"> <span class="after-Before-effect">FAQs</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="SiteMap.html"> <span class="after-Before-effect">Site Map</span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar -->
+  </section>
+  <!-- header ends here -->
+
+  <!-- ---------------------------------------------------------------------------------------- -->
+  <!-- table wares crafts slider -->
+  <div class="iron-crafts-slider my-4 border border-dark border-5" data-aos="fade-up">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="2000">
+          <div class="row">
+            <div class="col"> <img src="./Images/glass craft/chiness1.jfif" class="img-fluid" height="200px"
+                width="300px"> </div>
+            <div class="col"> <img src="./Images/Home Page Imgs/home page22.png" class="img-fluid" height="200px"
+                width="300px"> </div>
+            <div class="col"> <img src="./Images/Home decor/home page4.jpg" class="img-fluid" height="200px"
+                width="300px"> </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <div class="row">
+            <div class="col"> <img src="./Images/Home decor/home page5.jpg" class="img-fluid" height="200px"
+                width="300px"> </div>
+            <div class="col"> <img src="./Images/Candle Accessories/third1.jpeg" class="img-fluid" height="200px"
+                width="300px"> </div>
+            <div class="col"> <img src="./Images/Home Page Imgs/home page16.png" class="img-fluid" height="200px"
+                width="300px"> </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <div class="row">
+            <div class="col"> <img src="./Images/Home Page Imgs/stylelap2.jpg" class="img-fluid" height="200px"
+                width="300px"> </div>
+            <div class="col"> <img src="./Images/Candle Accessories/second2.jpg" class="img-fluid" height="200px"
+                width="300px"> </div>
+            <div class="col"> <img src="./Images/Home Page Imgs/home page23.png" class="img-fluid" height="200px"
+                width="300px"> </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- cande crafts slider -->
+  
+
+  <!--  handicrafts cards -->
+
+  <!--  candle prducts start -->
+  <div class="container-fluid">
+    <!-- heading -->
+
+    <div class="row trending-product-heading text-center mt-5" data-aos="fade-up">
+      <div class="col">
+        <p class="lead text-light" style="margin: 0px 0px; background-color: #af1414 ;">- DISCOVER OUR TABLES WARES  PRODUCTS -
+        </p>
+        <h1 class="display-1" style="color:black; font-family:'poppins' ;">TABLES WARES</h1>
+      </div>
+    </div>
+    <!-- heading -->
+      <!-- Paragraph  -->
+      <div class="container-fluid" data-aos="fade-up">
+        <p class="lead text-muted fw-lighter">- Venus Handicrafts  has wide range of pure hand made <span class="text-success fw-bold">TABLES WARES</span>  that are designed with perfect art called carving art and Lacquer Art. These table lamps are really beautiful addition in your home and office.</p>
+      </div>
+          <!-- Paragraph  -->
+    <div class="container-fluid trending-p-cards">
+      <!-- row 1 for trending card -->
+      <div class="row">
+        <!-- card 1 -->
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+          <div class="product-card">
+            <div class="badge">Hot</div>
+            <div class="product-tumb">
+              <!-- img effect -->
+              <div class="hovereffect">
+                <img class="img-responsive" src="./Images/Table wares/first1.jpg" alt="">
+                <div class="overlay">
+                  <h2>Tables Wares</h2>
+                </div>
+              </div>
+            </div>
+            <div class="product-details">
+              <span class="product-catagory">Tables Wares</span>
+              <h4><a href="">Solid  Carved</a></h4>
+              <p>Solid  Carved Tea Whole Tea Table .</p>
+              <div class="product-bottom-details">
+                <div class="product-price"><small>Rs19,800.00</small>Rs16,500.00</div>
+              </div>
+              <!-- modal -->
+              <div class="modal-details text-center">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-danger my-4" data-bs-toggle="modal"
+                  data-bs-target="#exampleModalLuxury6">Product Detail Views</button>
+                <div class="modal fade" id="exampleModalLuxury6" tabindex="-1" aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Solid Carved</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <!-- modal inside content -->
+                        <div class="row">
+                          <div class="col">
+                            <!-- modal inside slider -->
+                            <div id="carouselExampleControlsLuxury6" class="carousel slide" data-bs-ride="carousel">
+                              <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                  <img src="./Images/Table wares/first1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                  <img src="./Images/Table wares/first2.jpg" class="d-block w-100" alt="...">
+                                </div>
+                              </div>
+                              <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleControlsLuxury6" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                              </button>
+                              <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleControlsLuxury6" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                              </button>
+                            </div>
+                            <!-- modal inside slider -->
+
+                          </div>
+                          <div class="col">
+                            <p>Solid  Carved Tea Whole Tea Table With Tables Wares</p>
+                            <h3 class="fw-bold"> <small><strike>₨19,800.00</strike>&nbsp;&nbsp; </small>₨16,500.00</h3>
+                            <ul class="my-3">
+                              <li>Handmade</li>
+                              <li>Materials: Clay</li>
+                              <li>Color : Natural</li>
+                              <li>Availability : IN STOCK</li>
+                            </ul>
+                            <button class="my-5 py-3 px-3 modal-close-btn" data-bs-dismiss="modal">
+                              <i class="fa-solid fa-cart-shopping"></i> Add To Cart
+                            </button>
+                          </div>
+                        </div>
+                        <!-- modal inside content -->
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <!-- modal -->
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card 2 -->
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+          <div class="product-card">
+            <div class="badge">Hot</div>
+            <div class="product-tumb">
+              <!-- img effect -->
+              <div class="hovereffect">
+                <img class="img-responsive" src="./Images/Table wares/second1.jfif" alt="">
+                <div class="overlay">
+                  <h2>Tables Wares</h2>
+                </div>
+              </div>
+            </div>
+            <div class="product-details">
+              <span class="product-catagory">Tables Wares</span>
+              <h4><a href="">Saras</a></h4>
+              <p>Pure Saras  Handmade Products in Very Good Quality for Decoration/p>
+              <div class="product-bottom-details">
+                <div class="product-price"><small>Rs5,800.00</small>Rs4,675.00</div>
+              </div>
+              <!-- modal -->
+              <div class="modal-details text-center">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-danger my-4" data-bs-toggle="modal"
+                  data-bs-target="#exampleModalPure6">Product Detail Views</button>
+                <div class="modal fade" id="exampleModalPure6" tabindex="-1" aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Saras</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <!-- modal inside content -->
+                        <div class="row">
+                          <div class="col">
+                            <!-- modal inside slider -->
+                            <div id="carouselExampleControlsPureBrass6" class="carousel slide" data-bs-ride="carousel">
+                              <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                  <img src="./Images/Table wares/second1.jfif" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                  <img src="./Images/Table wares/second2.jfif" class="d-block w-100" alt="...">
+                                </div>
+                              </div>
+                              <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleControlsPureBrass6" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                              </button>
+                              <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleControlsPureBrass6" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                              </button>
+                            </div>
+                            <!-- modal inside slider -->
+
+                          </div>
+                          <div class="col">
+                            <p>Pure  Handmade Products in Very Good Quality for Decoration
+                            </p>
+                            <h3 class="fw-bold"> <small><strike>Rs5,800.00</strike>&nbsp;&nbsp; </small>Rs4,675.00</h3>
+                             <ul class="my-3">
+                                <li>Handmade</li>
+                                <li>Materials: Table Wares</li>
+                                <li>Color : Natural</li>
+                                <li>Availability : IN STOCK</li>
+                              </ul>
+                            <button class="my-5 py-3 px-3 modal-close-btn" data-bs-dismiss="modal">
+                              <i class="fa-solid fa-cart-shopping"></i> Add To Cart
+                            </button>
+                          </div>
+                        </div>
+                        <!-- modal inside content -->
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <!-- modal -->
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card 3 -->
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+          <div class="product-card">
+            <div class="badge">Hot</div>
+            <div class="product-tumb">
+              <!-- img effect -->
+              <div class="hovereffect">
+                <img class="img-responsive" src="./Images/Table wares/third1.jfif" alt="">
+                <div class="overlay">
+                  <h2>Tables Wares</h2>
+                </div>
+              </div>
+            </div>
+            <div class="product-details">
+              <span class="product-catagory">Tables Wares</span>
+              <h4><a href="">Glass Art</a></h4>
+              <p>Pure  Handmade Products in Very Good Quality for Decoration</p>
+              <div class="product-bottom-details">
+                <div class="product-price"><small>Rs27,800.00</small>Rs24,500.00</div>
+              </div>
+              <!-- modal -->
+              <div class="modal-details text-center">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-danger my-4" data-bs-toggle="modal"
+                  data-bs-target="#exampleModalWedding6">Product Detail Views</button>
+                <div class="modal fade" id="exampleModalWedding6" tabindex="-1"
+                  aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Glass Art</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <!-- modal inside content -->
+                        <div class="row">
+                          <div class="col">
+                            <!-- modal inside slider -->
+                            <div id="carouselExampleControlswedding6" class="carousel slide" data-bs-ride="carousel">
+                              <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                  <img src="./Images/Table wares/third1.jfif" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                  <img src="./Images/Table wares/third2.jfif" class="d-block w-100" alt="...">
+                                </div>
+                              </div>
+                              <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleControlswedding6" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                              </button>
+                              <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleControlswedding6" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                              </button>
+                            </div>
+                            <!-- modal inside slider -->
+
+                          </div>
+                          <div class="col">
+                            <p>Pure  Handmade Products in Very Good Quality for Decoration, Home Decor, Wedding ,Centerpieces, Center Table, Living Room </p>
+                            <h3 class="fw-bold"> <small><strike>Rs27,800.00</strike>&nbsp;&nbsp; </small>Rs24,500.00
+                            </h3>
+                             <ul class="my-3">
+                                <li>Handmade</li>
+                                <li>Materials: Table Wares</li>
+                                <li>Color : Natural</li>
+                                <li>Availability : IN STOCK</li>
+                              </ul>
+                            <button class="my-5 py-3 px-3 modal-close-btn" data-bs-dismiss="modal">
+                              <i class="fa-solid fa-cart-shopping"></i> Add To Cart
+                            </button>
+                          </div>
+                        </div>
+                        <!-- modal inside content -->
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <!-- modal -->
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- row 1  card ends -->
+      <!-- row 2  card starts -->
+      <div class="row">
+        <!-- card 1 -->
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+          <div class="product-card">
+            <div class="badge">Hot</div>
+            <div class="product-tumb">
+              <!-- img effect -->
+              <div class="hovereffect">
+                <img class="img-responsive" src="./Images/Table wares/fouth1.webp" alt="">
+                <div class="overlay">
+                  <h2>Tables Wares</h2>
+                </div>
+              </div>
+            </div>
+            <div class="product-details">
+              <span class="product-catagory">Tables Wares</span>
+              <h4><a href="">Antique</a></h4>
+              <p>Pure   Handmade Products in Very Good Quality for Decoration</p>
+              <div class="product-bottom-details">
+                <div class="product-price"><small>Rs1,800.00</small>Rs1,500.00</div>
+              </div>
+              <!-- modal -->
+              <div class="modal-details text-center">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-danger my-4" data-bs-toggle="modal"
+                  data-bs-target="#exampleModalbuddhist6">Product Detail Views</button>
+                <div class="modal fade" id="exampleModalbuddhist6" tabindex="-1" aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Antique</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <!-- modal inside content -->
+                        <div class="row">
+                          <div class="col">
+                            <!-- modal inside slider -->
+                            <div id="carouselExampleControlsbuddhist6" class="carousel slide" data-bs-ride="carousel">
+                              <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                  <img src="./Images/Table wares/fouth1.webp" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                  <img src="./Images/Table wares/fourth2.jfif" class="d-block w-100" alt="...">
+                                </div>
+                              </div>
+                              <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleControlsbuddhist6" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                              </button>
+                              <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleControlsbuddhist6" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                              </button>
+                            </div>
+                            <!-- modal inside slider -->
+
+                          </div>
+                          <div class="col">
+                            <p>Pure   Handmade Products in Very Good Quality for Decoration</p>
+                            <h3 class="fw-bold"> <small><strike>₨1,800.00</strike>&nbsp;&nbsp; </small>₨1,500.00</h3>
+                             <ul class="my-3">
+                                <li>Handmade</li>
+                                <li>Materials: Table Wares</li>
+                                <li>Color : Natural</li>
+                                <li>Availability : IN STOCK</li>
+                              </ul>
+                            <button class="my-5 py-3 px-3 modal-close-btn" data-bs-dismiss="modal">
+                              <i class="fa-solid fa-cart-shopping"></i> Add To Cart
+                            </button>
+                          </div>
+                        </div>
+                        <!-- modal inside content -->
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <!-- modal -->
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- CARD 2 DELETED -->
+        <!-- CARD 3 DELETED -->
+        
+      </div>
+      <!-- row 2 trending card ends -->
+    </div>
+    <!-- containers ends -->
+  </div>
+  <!--   prducts ends  -->
+
+  <!-- Glass Handicrafts cards -->
+
+  <!-- footer start -->
+  <footer class="footer" data-aos="fade-up">
+    <!-- row for icons shippings -->
+    <div class="container-fluid">
+      <div class="row  py-4  ps-5 bg-light">
+        <div class="col text-dark">
+          <h5>
+            <i class="fa-solid fa-truck"></i>&nbsp;FAST & SECURE HOME DELIVERY
+          </h5>
+        </div>
+        <div class="col text-dark">
+          <h5>
+            <i class="fa-solid fa-hand-holding-dollar"></i>&nbsp;MONEY BACK GUARANTEE
+          </h5>
+        </div>
+        <div class="col text-dark">
+          <h5>
+            <i class="fa-brands fa-space-awesome"></i>&nbsp;QUICK DELIVERY
+          </h5>
+        </div>
+      </div>
+    </div>
+    <!-- row for icons shippings -->
+    <div class="container">
+
+      <!-- main footer -->
+      <div class="row">
+        <div class="footer-col col-sm-12 col-md-3 col-lg-3">
+          <h4>INFORMATION</h4>
+          <ul>
+            <li><a href="AboutUs.html">About Us</a></li>
+            <li><a href="ContactUs.html">Contact Us</a></li>
+            <li><a href="FAQs.html">Privacy Policy</a></li>
+            <li><a href="FAQs.html">Term & Condition</a></li>
+            <li><a href="FAQs.html">Shipping Details</a></li>
+            <li><a href="FAQs.html">Payments</a></li>
+            <li><a href="FAQs.html">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="footer-col col-sm-12 col-md-3 col-lg-3">
+          <h4>MY ACCOUNT</h4>
+          <ul>
+            <li><a href="#">Register</a></li>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Wishlist</a></li>
+            <li><a href="#">Cart</a></li>
+            <li><a href="#">Checkout</a></li>
+
+          </ul>
+        </div>
+
+        <div class="footer-col col-sm-12 col-md-3 col-lg-3">
+          <h4>CONTACT US</h4>
+          <p style="color: #d8d8d8;"><i class="fa-solid fa-house"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;P-16 Waleed Block,
+            <br> Muslim Town # 1, Karachi Pakistan
+          </p>
+          <p style="color: #d8d8d8;"><i class="fa-solid fa-phone"></i>+92 41 881 6683<br><i
+              class="fa-solid fa-phone"></i>+92 42 613 5628</p>
+          <p style="color: #d8d8d8;"><i class="fa-solid fa-envelope"></i>&nbsp; info@venushandicrafts.com</p>
+        </div>
+        <div class="footer-col col-sm-12 col-md-3 col-lg-3">
+          <h4>
+            Follow Us
+          </h4>
+          <div class="social-links">
+            <a href="https://www.facebook.com/login.php/"><i class="fab  slink fa-facebook-f"></i></a>
+            <a href="https://twitter.com/i/flow/login"><i class="fab  slink fa-twitter"></i></a>
+            <a href="https://www.instagram.com/"><i class="fab  slink fa-instagram"></i></a>
+            <a href="https://www.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a>
+
+          </div>
+        </div>
+
+
+
+
+      </div>
+      <!-- main footer -->
+    </div>
+
+
+
+
+      <!-- footer end -->
+      <!-- copyright -->
+      <div class="container-fluid">
+        <div class="row bg-light">
+          <div class="col text-dark lead  text-muted text-center mt-3">
+            <p>COPYRIGHT © 2020 VENUS HANDICRAFTS. ALL RIGHTS RESERVED.</p>
+          </div>
+        </div>
+      </div>
+    
+  </footer>
+  <!-- copyright -->
+
+
+
+
+  <!-- Javascript -->
+
+  <!-- ------------------------------------------------------------------------------------------- -->
+
+  <!-- jquery -->
+  <script src="./js/jquery-3.6.0.min.js"></script>
+  <!-- jquery -->
+  <!-- bootstrap js -->
+  <script src="./js/bootstrap.min.js"></script>
+  <!-- bootstrap js -->
+  <!-- AOS jS -->
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+  <!-- AOS jS -->
+  <!-- jquery syntax -->
+  <script>
+    $(document).ready(function () {
+      // dropdown slide effect
+      $("#navbarDropdown").click(function () {
+        $(".dropdown-menu").slideToggle(300);
+      });
+      // dropdown slide effect
+
+      // header icon modal search click
+      $("#Headicon-search-btn").click(function () {
+        $(alert("Sorry! - Out of Stock -"));
+      });
+      // header icon modal search click
+
+      // modal add to cart function
+      $(".modal-close-btn").click(function () {
+        $(alert("Added To Cart Successfully!"));
+      });
+      // modal add to cart function
+    });
+     // AOS JS STarts
+
+     AOS.init();
+
+AOS.init({
+  duration: 1000,
+  anchorPlacement: 'top-bottom',
+  disable: function () {
+    var maxWidth = 700;
+    return window.innerWidth < maxWidth;
+  }
+
+})
+// AOS JS ends
+  </script>
+  <!-- jquery syntax -->
+
+</body>
+
+</html>
